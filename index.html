@@ -1,124 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Khosro Givi | IT Professional</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#07111f;color:#eef5ff;font-family:Arial,sans-serif}
+main{max-width:600px;margin:auto;padding:25px 18px}
+.card{background:#0d1b2a;border:1px solid #24415d;border-radius:18px;padding:24px;margin-bottom:16px}
+.hero{text-align:center}.logo{width:70px;height:70px;border:2px solid #55aaff;border-radius:50%;margin:auto;display:grid;place-items:center;font-size:22px;font-weight:bold;color:#55aaff}
+h1{margin:14px 0 5px;font-size:28px}.title{color:#8dccff;font-weight:bold}.loc{color:#aab8c7;margin-top:10px;font-size:14px}
+h2{font-size:13px;color:#65b8ff;text-transform:uppercase;letter-spacing:1px}
+p{color:#c5d1dd;line-height:1.6;font-size:14px}
+.tags{display:flex;flex-wrap:wrap;gap:7px}.tag{background:#12263b;border:1px solid #294864;padding:7px 9px;border-radius:8px;font-size:12px}
+.links{display:grid;gap:9px;margin-top:20px}.btn{display:block;text-align:center;text-decoration:none;color:white;background:#1769aa;padding:12px;border-radius:10px;font-weight:bold}
+footer{text-align:center;color:#718194;font-size:12px;padding:10px}
+</style>
+</head>
+<body>
+<main>
 
-  <title>Khosro Givi | IT Infrastructure & Network</title>
-  <meta name="description" content="Khosro Givi - IT Infrastructure, Network, Systems and IT Support Professional in Oman">
+<section class="card hero">
+<div class="logo">KG</div>
+<h1>KHOSRO GIVI</h1>
+<div class="title">IT Infrastructure | Network | Systems | IT Support</div>
+<div class="loc">📍 Muscat, Oman</div>
 
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+<div class="links">
+<a class="btn" href="#">📄 Download CV</a>
+<a class="btn" href="#">💼 LinkedIn</a>
+<a class="btn" href="#">💬 WhatsApp</a>
+<a class="btn" href="#">✉️ Email</a>
+</div>
+</section>
 
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-      background: #07111f;
-      color: #f4f7fb;
-      line-height: 1.6;
-    }
+<section class="card">
+<h2>Professional Profile</h2>
+<p>
+IT Infrastructure and Network professional with hands-on experience in
+Cisco, MikroTik, Windows Server, Active Directory, VMware and IT Support.
+Focused on infrastructure, troubleshooting, systems and network security.
+</p>
+</section>
 
-    .container {
-      width: 100%;
-      max-width: 720px;
-      margin: auto;
-      padding: 24px 18px 40px;
-    }
+<section class="card">
+<h2>Core Expertise</h2>
+<div class="tags">
+<span class="tag">Cisco</span>
+<span class="tag">MikroTik</span>
+<span class="tag">Windows Server</span>
+<span class="tag">Active Directory</span>
+<span class="tag">VMware</span>
+<span class="tag">Network</span>
+<span class="tag">IT Support</span>
+<span class="tag">Cybersecurity</span>
+<span class="tag">Backup & DR</span>
+<span class="tag">Hotel IT</span>
+</div>
+</section>
 
-    .card {
-      background: #0d1b2a;
-      border: 1px solid #1e344b;
-      border-radius: 22px;
-      padding: 28px 20px;
-      margin-bottom: 18px;
-      box-shadow: 0 12px 35px rgba(0,0,0,.25);
-    }
+<section class="card">
+<h2>Experience</h2>
+<p><b>Founder / IT Infrastructure & Support</b><br>
+Isatis IT Services & Solutions<br>
+2024 – Present</p>
+<p>
+Network administration, infrastructure design, server deployment,
+troubleshooting, security and IT support.
+</p>
+</section>
 
-    .hero {
-      text-align: center;
-      padding-top: 38px;
-      padding-bottom: 28px;
-    }
+<footer>KG / KHOSRO GIVI · Muscat, Oman</footer>
 
-    .logo {
-      width: 78px;
-      height: 78px;
-      margin: 0 auto 18px;
-      border-radius: 50%;
-      border: 2px solid #4da3ff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 25px;
-      font-weight: 800;
-      letter-spacing: 1px;
-      color: #4da3ff;
-      background: #081522;
-    }
-
-    h1 {
-      font-size: 30px;
-      letter-spacing: .5px;
-      margin-bottom: 7px;
-    }
-
-    .title {
-      color: #8ecbff;
-      font-size: 15px;
-      font-weight: 600;
-    }
-
-    .location {
-      margin-top: 12px;
-      color: #b8c5d3;
-      font-size: 14px;
-    }
-
-    .status {
-      display: inline-block;
-      margin-top: 16px;
-      padding: 7px 13px;
-      border-radius: 20px;
-      background: #102b20;
-      border: 1px solid #245b42;
-      color: #8ee6b7;
-      font-size: 13px;
-      font-weight: 600;
-    }
-
-    .buttons {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 10px;
-      margin-top: 22px;
-    }
-
-    .button {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 48px;
-      border-radius: 12px;
-      text-decoration: none;
-      color: white;
-      background: #13283d;
-      border: 1px solid #29445f;
-      font-size: 14px;
-      font-weight: 600;
-      transition: .2s;
-    }
-
-    .button.primary {
-      background: #1769aa;
-      border-color: #2685cf;
-    }
-
-    .section-title {
-      font-size: 14px;
-      color: #6dbbff;
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      margin-bottom
+</main>
+</body>
+</html>
